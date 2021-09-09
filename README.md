@@ -38,6 +38,6 @@ Frontend:
 
 ## How to use
 
-1. Backend: run `yarn dev` from the root folder of the project
-2. Frontend: run `yarn dev` from the root folder of the project
+1. Backend: run `yarn && yarn dev` from the root folder of the project
+2. Frontend: run `yarn && yarn dev` from the root folder of the project
 3. Open the browser at [localhost:3000](localhost:3000)
