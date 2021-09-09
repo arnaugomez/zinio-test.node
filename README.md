@@ -41,3 +41,13 @@ Frontend:
 1. Backend: run `yarn && yarn dev` from the root folder of the project
 2. Frontend: run `yarn && yarn dev` from the root folder of the project
 3. Open the browser at [localhost:3000](localhost:3000)
+
+
+## Potential improvements and self-criticism
+These are some improvements that I would work on next and that were not done because of my limited time.
+- Add a test for each page and endpoint with Jest and React-Testing-Library
+- Abstract repeated items into separate React components
+- Test edge cases and provide error handling for every case in which the API could respond with an error
+- Customize the design of the page.
+- Get the website tested by potential users, ask for their opinion and criticism.
+- Publish the site and the API. Hide the API url in an environment variable.
