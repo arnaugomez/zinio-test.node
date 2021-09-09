@@ -7,7 +7,7 @@ let articlesData: JsonArticlesData | null = null;
 
 export function getArticlesData(): JsonArticlesData {
   if (!articlesData) {
-    const articlesDataString = fs.readFileSync("./articles.json", "utf8");
+    const articlesDataString = fs.readFileSync("./src/articles/data/json/articles.json", "utf8");
     const rawArticlesData = JSON.parse(articlesDataString);
     articlesData = fixArticleBodyImages(rawArticlesData)
   }
